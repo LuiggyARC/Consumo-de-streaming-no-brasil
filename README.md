@@ -69,21 +69,18 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 
 ## 📁 Estrutura do Repositório
 streaming-consumo-brasil/
-│
-├── data/
-│ ├── raw/ # Dados brutos
-│ └── processed/ # Dados tratados
-│
-├── scripts/
-│ ├── 01_limpeza_dados.R
-│ ├── 02_analise_exploratoria.R
-│ └── 03_visualizacoes.R
-│
-├── visualizations/
-│ └── graficos.png
-│
-├── conclusions.md
-└── README.md
+
+── data/
+── raw/ # Dados brutos
+── processed/ # Dados tratados
+── scripts/
+── 01_limpeza_dados.R
+── 02_analise_exploratoria.R
+── 03_visualizacoes.R
+── visualizations/
+── graficos.png
+── conclusions.md
+── README.md
 
 ---
 
@@ -113,4 +110,4 @@ Analista de Dados | Python | R | Visualização de Dados
 ---
 
 ## 📜 Licença
-Este projeto é de caráter educacional e acadêmico.
+Este projeto tem como proposito mostrar minha habilidades como analista.
