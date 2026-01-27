@@ -69,12 +69,10 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 
 ## 📁 Estrutura do Repositório
 streaming-consumo-brasil/
-
-streaming-consumo-brasil/
 │
 ├── dados/
-│   ├── brutos/          # Dados originais (raw data)
-│   └── processados/     # Dados tratados e limpos
+│   ├── brutos/            # Dados originais (raw data)
+│   └── processados/       # Dados tratados e limpos
 │
 ├── scripts/
 │   ├── 01_limpeza_dados.R
@@ -86,6 +84,7 @@ streaming-consumo-brasil/
 │
 ├── conclusoes.md
 └── README.md
+
 
 ---
 
