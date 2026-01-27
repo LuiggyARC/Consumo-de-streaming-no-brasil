@@ -68,3 +68,49 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 ---
 
 ## 📁 Estrutura do Repositório
+streaming-consumo-brasil/
+│
+├── data/
+│ ├── raw/ # Dados brutos
+│ └── processed/ # Dados tratados
+│
+├── scripts/
+│ ├── 01_limpeza_dados.R
+│ ├── 02_analise_exploratoria.R
+│ └── 03_visualizacoes.R
+│
+├── visualizations/
+│ └── graficos.png
+│
+├── conclusions.md
+└── README.md
+
+---
+
+
+---
+
+## 📈 Principais Insights *(em desenvolvimento)*
+- A Região Norte apresenta alta adesão ao streaming como principal forma de entretenimento digital  
+- O acesso à internet móvel influencia diretamente o consumo  
+- O custo-benefício do streaming favorece regiões com menor renda  
+
+---
+
+## 📌 Status do Projeto
+🚧 Em desenvolvimento  
+
+---
+
+## 👤 Autor
+**Luiggy Alberto Rezende Collyer**  
+Analista de Dados | Python | R | Visualização de Dados  
+
+📍 Manaus – AM  
+🔗 GitHub: *(adicione aqui depois)*  
+🔗 LinkedIn: *(opcional)*  
+
+---
+
+## 📜 Licença
+Este projeto é de caráter educacional e acadêmico.
