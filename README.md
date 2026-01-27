@@ -67,23 +67,22 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📂 Estrutura do Repositório
+
+```text
 streaming-consumo-brasil/
-│
 ├── dados/
-│   ├── brutos/            # Dados originais (raw data)
-│   └── processados/       # Dados tratados e limpos
-│
+│   ├── brutos/          # Dados originais (raw data)
+│   └── processados/     # Dados tratados e limpos
 ├── scripts/
 │   ├── 01_limpeza_dados.R
 │   ├── 02_analise_exploratoria.R
 │   └── 03_visualizacoes.R
-│
 ├── visualizacoes/
 │   └── graficos.png
-│
 ├── conclusoes.md
 └── README.md
+
 
 
 ---
