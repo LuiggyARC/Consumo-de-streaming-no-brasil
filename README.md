@@ -103,11 +103,10 @@ streaming-consumo-brasil/
 
 ## 👤 Autor
 **Luiggy Alberto Rezende Collyer**  
-Analista de Dados | Python | R | Visualização de Dados  
+Analista de Dados | Automação em Python | R | Visualização de Dados  
 
 📍 Manaus – AM  
-🔗 GitHub: *(adicione aqui depois)*  
-🔗 LinkedIn: *(opcional)*  
+🔗 LinkedIn: *(https://www.linkedin.com/in/luiggy-alberto-ab2331331)*  
 
 ---
 
