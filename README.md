@@ -49,6 +49,7 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 
 ## 🛠️ Ferramentas e Tecnologias
 - **R**
+- **Python**
 - **tidyverse**
 - **ggplot2**
 - **dplyr**
