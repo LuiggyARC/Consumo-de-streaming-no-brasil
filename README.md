@@ -69,7 +69,6 @@ Os dados utilizados neste projeto são provenientes de fontes públicas e confi�
 
 ## 📂 Estrutura do Repositório
 
-```text
 streaming-consumo-brasil/
 ├── dados/
 │   ├── brutos/          # Dados originais (raw data)
