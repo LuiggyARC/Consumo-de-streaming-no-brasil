@@ -34,7 +34,7 @@ buscando explicar **como e onde o streaming ocorre em cada região**.
 Este gráfico representa o **potencial máximo** de domicílios aptos a consumir streaming via TV,
 calculado como a interseção entre presença de televisores e acesso à internet.
 
-![Estimativa de TVs conectadas](outputs/figures/Estimativa_de_TVs_conectadas_internet.png)
+![Estimativa de TVs conectadas à internet](outputs/figures/Estimativa_de_TVs_conectadas_internet.png)
 
 **Destaque:** a Região Norte apresenta o menor potencial de TVs conectadas.
 
