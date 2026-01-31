@@ -34,7 +34,7 @@ buscando explicar **como e onde o streaming ocorre em cada região**.
 Este gráfico representa o **potencial máximo** de domicílios aptos a consumir streaming via TV,
 calculado como a interseção entre presença de televisores e acesso à internet.
 
-![Estimativa de TVs conectadas à internet](outputs/figures/Estimativa_de_TVs_conectadas_internet.png)
+<img width="613" height="360" alt="Estimativa_de TVs_Conectadas_internet" src="https://github.com/user-attachments/assets/99383c85-7b44-46cc-bb03-090d8c980910" />
 
 **Destaque:** a Região Norte apresenta o menor potencial de TVs conectadas.
 
@@ -43,7 +43,8 @@ calculado como a interseção entre presença de televisores e acesso à interne
 ### 🔹 2. TV conectada × uso de streaming
 A relação entre infraestrutura domiciliar e consumo efetivo de streaming.
 
-![TV conectada x streaming](outputs/figures/TVs_conectadas_x_uso_de_streaming.png)
+<img width="613" height="360" alt="Tvs_Conectadas_x_uso_de_streaming" src="https://github.com/user-attachments/assets/cba5007b-067f-4b8f-b552-0227fabac0c5" />
+
 
 **Destaque:** regiões com maior TV conectada apresentam maior uso de streaming.
 
@@ -52,7 +53,8 @@ A relação entre infraestrutura domiciliar e consumo efetivo de streaming.
 ### 🔹 3. Gráfico-resumo: infraestrutura × consumo
 Visão consolidada dos principais indicadores do projeto.
 
-![Resumo streaming](outputs/figures/grafico_resumo_streaming_regioes.png)
+<img width="3000" height="1800" alt="grafico_resumo_streaming_regioes" src="https://github.com/user-attachments/assets/045bff50-7086-4982-bdff-297764d35ca7" />
+
 
 **Leitura central:**  
 Mesmo com menor potencial de consumo via TV, o uso de streaming no Norte se mantém por meio
