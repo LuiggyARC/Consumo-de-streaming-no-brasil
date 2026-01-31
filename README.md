@@ -67,10 +67,12 @@ Os gráficos abaixo reforçam a adaptação do consumo digital às limitações 
 domiciliar na Região Norte.
 
 ### 🔸 Internet móvel × uso de streaming
-![Internet móvel x streaming](outputs/figures/Internet_movel_x_uso_de_streaming.png)
+<img width="613" height="360" alt="Internet_movel_x_uso_de_streaming" src="https://github.com/user-attachments/assets/02876d1e-dcbe-4b67-96d6-5950a1ee8a51" />
+
 
 ### 🔸 Uso de celular × uso de streaming
-![Celular x streaming](outputs/figures/Uso_de_celular_x_uso_de_streaming.png)
+<img width="613" height="360" alt="Uso_de_celular_x_uso_de_streaming" src="https://github.com/user-attachments/assets/2611f861-6d4f-4acf-bc51-b0215c9ec111" />
+
 
 ---
 
