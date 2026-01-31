@@ -1,115 +1,102 @@
-# 📊 Análise do Consumo de Streaming Pago no Brasil  
-### Por que a Região Norte lidera o consumo apesar da menor renda média?
+# 📊 Consumo de Streaming no Brasil – Análise Regional (2024)
 
-## 📌 Visão Geral
-Este projeto tem como objetivo analisar o consumo de serviços de **streaming pago no Brasil**, com foco em compreender um paradoxo socioeconômico: **a Região Norte apresenta alto consumo de streaming, mesmo sendo a região com menor renda média do país**.
+## 📌 Objetivo
+Este projeto analisa o consumo de streaming nas regiões brasileiras, com foco em compreender
+por que a **Região Norte apresenta menor consumo via televisão**, mesmo possuindo ampla
+presença de aparelhos e acesso à internet.
 
-A análise utiliza dados públicos, técnicas de limpeza, exploração, visualização e narrativa de dados para identificar fatores que expliquem esse comportamento e gerar insights acionáveis para o mercado digital.
-
----
-
-## ❓ Problema de Pesquisa
-Por que a Região Norte do Brasil apresenta alto consumo de serviços de streaming pago, apesar de possuir a menor renda média entre as regiões brasileiras?
+A análise relaciona infraestrutura digital, dispositivos disponíveis e comportamento de consumo,
+buscando explicar **como e onde o streaming ocorre em cada região**.
 
 ---
 
-## 🎯 Objetivos
-
-### Objetivo Geral
-Analisar fatores socioeconômicos, tecnológicos e comportamentais que expliquem o alto consumo de streaming pago na Região Norte do Brasil.
-
-### Objetivos Específicos
-- Comparar renda média e consumo de streaming por região  
-- Analisar o acesso à internet (móvel e fixa)  
-- Avaliar o perfil demográfico das regiões  
-- Investigar hábitos de consumo de mídia  
-- Identificar oportunidades de negócio para plataformas de streaming  
+## 📂 Fonte dos dados
+- **IBGE – PNAD TIC 2024**
+- Indicadores regionais consolidados:
+  - Uso de streaming
+  - Acesso à internet domiciliar
+  - Presença de televisores
+  - Posse de telefone celular
 
 ---
 
-## 🧠 Hipóteses Analisadas
-- Maior dependência de internet móvel na Região Norte  
-- Menor acesso à TV por assinatura tradicional  
-- Compartilhamento de contas de streaming  
-- Streaming como principal forma de entretenimento  
-- Planos de streaming mais acessíveis que alternativas tradicionais  
+## 🧠 Metodologia (resumo)
+- Limpeza e padronização dos dados
+- Conversão do formato wide → long
+- Criação de indicador sintético de **TV conectada estimada**
+- Análises comparativas entre infraestrutura e consumo
 
 ---
 
-## 📂 Fontes de Dados
-Os dados utilizados neste projeto são provenientes de fontes públicas e confiáveis:
+## 📈 Resultados
 
-- **IBGE** – Renda média, população e urbanização  
-- **PNAD Contínua** – Acesso à internet e tecnologia  
-- **ANATEL** – Banda larga fixa e móvel  
-- **Relatórios públicos de mercado** (Netflix, Amazon Prime, Statista)  
-- **Dados simulados**, quando necessário, baseados em estatísticas oficiais (devidamente documentados)
+### 🔹 1. Estimativa de TVs conectadas à internet
+Este gráfico representa o **potencial máximo** de domicílios aptos a consumir streaming via TV,
+calculado como a interseção entre presença de televisores e acesso à internet.
 
----
+![Estimativa de TVs conectadas](outputs/figures/Estimativa_de_TVs_conectadas_internet.png)
 
-## 🛠️ Ferramentas e Tecnologias
-- **R**
-- **Python**
-- **tidyverse**
-- **ggplot2**
-- **dplyr**
-- **RStudio**
-- **Git & GitHub**
+**Destaque:** a Região Norte apresenta o menor potencial de TVs conectadas.
 
 ---
 
-## 📊 Metodologia
-1. Coleta de dados públicos  
-2. Limpeza e tratamento dos dados  
-3. Análise exploratória (EDA)  
-4. Visualização de dados  
-5. Construção de narrativa analítica  
-6. Interpretação dos resultados  
+### 🔹 2. TV conectada × uso de streaming
+A relação entre infraestrutura domiciliar e consumo efetivo de streaming.
+
+![TV conectada x streaming](outputs/figures/TVs_conectadas_x_uso_de_streaming.png)
+
+**Destaque:** regiões com maior TV conectada apresentam maior uso de streaming.
 
 ---
 
-## 📂 Estrutura do Repositório
+### 🔹 3. Gráfico-resumo: infraestrutura × consumo
+Visão consolidada dos principais indicadores do projeto.
 
-streaming-consumo-brasil/
-├── dados/
-│   ├── brutos/          # Dados originais (raw data)
-│   └── processados/     # Dados tratados e limpos
-├── scripts/
-│   ├── 01_limpeza_dados.R
-│   ├── 02_analise_exploratoria.R
-│   └── 03_visualizacoes.R
-├── visualizacoes/
-│   └── graficos.png
-├── conclusoes.md
-└── README.md
+![Resumo streaming](outputs/figures/grafico_resumo_streaming_regioes.png)
 
-
+**Leitura central:**  
+Mesmo com menor potencial de consumo via TV, o uso de streaming no Norte se mantém por meio
+de dispositivos móveis.
 
 ---
 
+## 📊 Análises complementares
+Os gráficos abaixo reforçam a adaptação do consumo digital às limitações de infraestrutura
+domiciliar na Região Norte.
+
+### 🔸 Internet móvel × uso de streaming
+![Internet móvel x streaming](outputs/figures/Internet_movel_x_uso_de_streaming.png)
+
+### 🔸 Uso de celular × uso de streaming
+![Celular x streaming](outputs/figures/Uso_de_celular_x_uso_de_streaming.png)
 
 ---
 
-## 📈 Principais Insights *(em desenvolvimento)*
-- A Região Norte apresenta alta adesão ao streaming como principal forma de entretenimento digital  
-- O acesso à internet móvel influencia diretamente o consumo  
-- O custo-benefício do streaming favorece regiões com menor renda  
+## ✅ Conclusões
+- O menor consumo de streaming via TV no Norte **não é causado pela ausência de televisores**
+- A limitação está na **infraestrutura de conectividade domiciliar**
+- O consumo digital se adapta por meio do uso intensivo de celular e internet móvel
+- O comportamento observado reflete desigualdades estruturais de acesso
 
 ---
 
-## 📌 Status do Projeto
-🚧 Em desenvolvimento  
+## 🛠️ Tecnologias Utilizadas
+- R
+- tidyverse
+- ggplot2
+- janitor
+- stringr
+- scales
+- RMarkdown
+
+---
+
+## 📌 Observações
+- Análise exploratória com dados agregados por região
+- Indicadores sintéticos representam estimativas
+- Resultados devem ser interpretados com cautela estatística
 
 ---
 
 ## 👤 Autor
-**Luiggy Alberto Rezende Collyer**  
-Analista de Dados | Automação em Python | R | Visualização de Dados  
-
-📍 Manaus – AM  
-🔗 LinkedIn: *(https://www.linkedin.com/in/luiggy-alberto-ab2331331)*  
-
----
-
-## 📜 Licença
-Este projeto tem como proposito mostrar minha habilidades como analista.
+Projeto desenvolvido para fins de **portfólio em Análise de Dados**.
