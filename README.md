@@ -76,7 +76,7 @@ domiciliar na Região Norte.
 
 ---
 
-## ✅ Conclusões
+## Conclusoes da analise
 - O menor consumo de streaming via TV no Norte **não é causado pela ausência de televisores**
 - A limitação está na **infraestrutura de conectividade domiciliar**
 - O consumo digital se adapta por meio do uso intensivo de celular e internet móvel
